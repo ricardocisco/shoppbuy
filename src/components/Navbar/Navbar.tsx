@@ -5,13 +5,13 @@ import { IoSearchOutline, IoBagOutline } from "react-icons/io5";
 
 const NavWrapper = styled.div`
   display: flex;
-  width: 100%;
-  justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.7);
-  height: 50px;
-  color: #fff;
+  justify-content: center;
+  height: 45px;
+  width: 100%;
+  background-color: rgba(10, 10, 10, 0.4);
   position: fixed;
+  color: #fff;
 `;
 
 const NavTitle = styled.h1`
@@ -39,7 +39,6 @@ const Icon = styled.i`
 export default function Navbar() {
   return (
     <NavWrapper>
-      <NavTitle>Navbar</NavTitle>
       <NavDisordered>
         <DivLink>
           <Link to="">Home</Link>
